@@ -29,3 +29,5 @@ This backend application provides the server-side functionality for a todo manag
 - **DELETE /api/todo/reset**: Delete all todo for the authenticated user.
 - **DELETE /api/todos/:id**: Delete a todo with the specified ID for the authenticated user.
 - **PUT /api/todo/:id**: Update the todo for the authenticated user.
+---
+Feel free to customize and expand upon this README template to provide more detailed instructions and information about your backend application.
