@@ -12,8 +12,8 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use('/', UserRoute);
-app.use('/', TodoRoute);
+app.use('/api', UserRoute);
+app.use('/api', TodoRoute);
 
 
 mongoose

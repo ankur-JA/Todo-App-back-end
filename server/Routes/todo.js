@@ -5,7 +5,7 @@ const findIndex = require('../func/findIndex')
 const route = express.Router();
 
 //Get All the Todo for the User
-route.get('/todo', authenticateJwt, async (req, res) => {
+route.get('/todos', authenticateJwt, async (req, res) => {
     const userid = res.locals.user.UserId;
     const user = await USER.findOne({UserId: userid});
     
