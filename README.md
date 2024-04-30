@@ -21,11 +21,11 @@ This backend application provides the server-side functionality for a todo manag
 - **Middleware**: Express middleware for handling authentication and access control.
 
 ## API Endpoints
-POST /api/signup: Create a new user account.
-POST /api/signin: Sign in to an existing user account.
-GET /api/todos: Retrieve all todos for the authenticated user.
-GET /api/todo/:id: Retrieve specified todo for the authenticated user.
-POST /api/todo: Add a new todo for the authenticated user.
-DELETE /api/todo/reset: Delete all todo for the authenticated user.
-DELETE /api/todos/:id: Delete a todo with the specified ID for the authenticated user.
-PUT /api/todo/:id: Update the todo for the authenticated user.
+- **POST /api/signup**: Create a new user account.
+- **POST /api/signin**: Sign in to an existing user account.
+- **GET /api/todos**: Retrieve all todos for the authenticated user.
+- **GET /api/todo/:id**: Retrieve specified todo for the authenticated user.
+- **POST /api/todo**: Add a new todo for the authenticated user.
+- **DELETE /api/todo/reset**: Delete all todo for the authenticated user.
+- **DELETE /api/todos/:id**: Delete a todo with the specified ID for the authenticated user.
+- **PUT /api/todo/:id**: Update the todo for the authenticated user.
